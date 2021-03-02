@@ -1,0 +1,93 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="JS/main.js" defer></script>
+    <script src="JS/kombinationer.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CSS/yatzy.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Yatzy</title>
+  </head>
+  <body>
+    <div class="border-box">
+      <div class="box">
+        <div id="dice1" class="dice-container">
+          <img class="dice" src="images/1White.png" alt="" width="100" />
+        </div>
+        <div id="dice2" class="dice-container">
+          <img class="dice" src="images/2White.png" alt="" width="100" />
+        </div>
+        <div id="dice3" class="dice-container">
+          <img class="dice" src="images/3White.png" alt="" width="100" />
+        </div>
+        <div id="dice4" class="dice-container">
+          <img class="dice" src="images/4White.png" alt="" width="100" />
+        </div>
+        <div id="dice5" class="dice-container">
+          <img class="dice" src="images/5White.png" alt="" width="100" />
+        </div>
+        <br />
+        <div id="label">
+          <label for="Turn">Turn: <span id="turn-number">0</span></label>
+        </div>
+        <div id="button"><button type="button">Roll</button></div>
+      </div>
+
+      <div class="points-container box">
+        <div class="point-label">1-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">2-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">3-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">4-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">5-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">6-s</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div id="sum">Sum:</div>
+        <div id="sum-text"><input type="number" /></div>
+
+        <div class="bonus-total">Bonus:</div>
+        <div class="bonus-total-text"><input type="number" /></div>
+
+        <div class="point-label">One pair</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Two pairs</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Three same</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Four same</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Full house</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Small straight</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Large straight</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Chance</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="point-label">Yatzy</div>
+        <div class="point-text"><input type="number" /></div>
+
+        <div class="bonus-total">Total:</div>
+        <div class="bonus-total-text"><input type="number" /></div>
+      </div>
+    </div>
+  </body>
+</html>
